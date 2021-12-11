@@ -1,0 +1,4 @@
+-- 1: export CLASSPATH=".:/usr/local/lib/antlr-4.9.3-complete.jar:$CLASSPATH"
+-- 2: javac Calc.java LabeledExpr*.java
+-- 3: java Calc expresionesTest.expr
+-- 4: grun LabeledExpr prog -gui expresionesTest.expr
